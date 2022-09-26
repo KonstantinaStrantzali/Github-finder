@@ -1,11 +1,13 @@
 import React from 'react'
+import UserResults from '../users/UserResults'
 
 
 function Home() {
   return (
-    <div>
-     <h1>Hello</h1>
-    </div>
+    <>
+   
+     <UserResults/>
+    </>
   )
 }
 
