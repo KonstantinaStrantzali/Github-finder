@@ -19,7 +19,7 @@ export const GithubProvider = ({children}) => {
     const searchUsers = async(text) => {
       
       setLoading()
-
+//load the datagit fetch
       const params = new URLSearchParams ({
         q : text,
       })
